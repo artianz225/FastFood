@@ -1,0 +1,254 @@
+.home-section-container {
+  display: flex;
+  align-items: center;
+  width: 425px;
+  gap: 1em;
+  letter-spacing: 1px;
+  padding: 5px 15px;
+}
+
+.home-section-container img {
+  width: 120px;
+  height: 120px;
+}
+
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  width: 425px;
+  padding: 5px 15px 10px 15px;
+}
+
+.home-search-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  width: 60px;
+  height: 50px;
+  color: tomato;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top: 1px solid gray;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: white;
+}
+
+.home-search-input {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: none;
+}
+
+.special-offer-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 425px;
+  padding: 10px 15px;
+}
+
+.special-offer-header-container p {
+  color: tomato;
+  display: flex;
+  align-items: center;
+}
+
+.special-offer-coupon-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 200px;
+  padding: 5px 15px;
+  gap: 1em;
+  overflow-x: auto;
+}
+
+.coupon-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.coupon-wrapper img {
+  display: flex;
+  width: 310px;
+  height: 170px;
+  border-radius: 15px;
+}
+
+.coupon-dot-separator-left {
+  display: flex;
+  top: 50%;
+  left: 0%;
+  margin-left: -16px;
+  transform: translate(-0%, -50%);  
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.coupon-dot-separator-right {
+  display: flex;
+  top: 50%;
+  left: 100%;
+  margin-left: -14px;
+  transform: translate(-0%, -50%);  
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.category-container {
+  width: 100%;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.category-images-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 280px;
+  padding: 5px 15px;
+  gap: 1em;
+  overflow-x: auto;
+}
+
+.category-images-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.category-images-wrapper img {
+  width: 180px;
+  height: 270px;
+  border-radius: 15px;
+}
+
+.category-images-wrapper h3 {
+  font-weight: 500;
+}
+
+.category-images-wrapper p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+
+.img-overlay-background {
+  display: flex;
+  position: absolute;
+  width: 180px;
+  height: 270px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.categgory-text-contents {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  z-index: 1;
+}
+
+.Whats-new-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 425px;
+  padding: 10px 15px;
+}
+
+.whats-new-contents-container {
+  display: flex;
+  align-items: center;
+  width: 425px;
+  height: 230px;
+  padding: 0px 15px;
+}
+
+.whats-new-image-wrapper {
+  display: flex;
+  width: 100%;
+  height: 220px;
+}
+
+.whats-new-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.most-popular-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 425px;
+  padding: 10px 15px;
+}
+
+.order-now-btn {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+  bottom: 25px;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(252, 34, 34);
+  z-index: 10;
+}
+
+.slide-right-on {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 425px;
+  height: auto;
+  top: 0;
+  right: 0;
+  background-color: white;
+  z-index: 11;
+  transition: .5s;
+}
+
+.slide-right-off {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 425px;
+  top: 0;
+  right: -425px;
+  background-color: white;
+  z-index: 11;
+  transition: .5s;
+}

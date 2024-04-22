@@ -1,0 +1,81 @@
+.nav-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 425px;
+  height: 75px;
+}
+
+.nav-menus-and-header-wrapper {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 10px 15px;
+  gap: 1rem;
+  width: 425px;
+}
+
+.nav-menus-and-header-wrapper h1 {
+  font-weight: 600;
+}
+
+.menu-icon {
+  color: tomato;
+  font-size: 25px;
+}
+
+.cart-btn-container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 10px 15px;
+  gap: 1rem;
+}
+
+.crown-contents-and-image-main-container {
+  display: flex;
+  width: 425px;
+  justify-content: space-between;
+}
+
+.home-crown-and-contents {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-left: 60px;
+}
+
+.home-crown-and-contents span {
+  display: flex;
+  font-size: 25px;
+  color: tomato;
+}
+
+.home-crown-and-contents img {
+  width: 35px;
+  height: 35px;
+}
+
+.home-crown-and-contents p {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: .5em;
+}
+
+.profile-image-container {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.arrow-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 35px;
+  border-radius: 15px;
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(128, 128, 128, 0.5);
+}
