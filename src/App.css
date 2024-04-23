@@ -68,7 +68,9 @@ body {
   left: 0%;
   transition: .5s;
   padding: 0px 15px;
+  background-color: teal;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .sliding-bar-off {
