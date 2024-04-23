@@ -7,7 +7,6 @@
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
   width: 100%;
   height: 100%;
@@ -15,18 +14,19 @@ body {
 
 .main-container-on {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
   width: 425px;
+  height: 100dvh;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .main-wrapper-off {
   display: flex;
   position: relative;
   flex-direction: column;
-  align-self: center;
   width: 100%;
+  top: 0;
   padding-left: 0%;
   transition: .5s;
   height: auto;
@@ -36,8 +36,8 @@ body {
   display: flex;
   position: relative;
   flex-direction: column;
-  align-self: center;
   width: 100%;
+  top: 0;
   padding-left: 80%;
   transition: .5s;
   height: auto;
